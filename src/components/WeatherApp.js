@@ -22,7 +22,7 @@ import WindImg from "./images/wind.png"
 const WeatherApp = () => {
     const apiKey = "c45e1ad83d9690f5a8e314eac1ff6b84";
     const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
-    // https:
+    // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
   
     const [place, setPlace] = useState("");
     const [weatherData, setWeatherData] = useState(null);
